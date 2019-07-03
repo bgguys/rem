@@ -1,0 +1,13 @@
+{
+  "extends": "@ali/eslint-config-pp",
+  "rules": {
+    "no-var": 0,
+    "object-shorthand": "off",
+    "no-console": 0
+  },
+  "globals": {
+    "require": true,
+    "define": true
+
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "bgrem",
+  "version": "0.1.0",
+  "description": "使用 rem 布局的可引用该库自动设置 body 的 font-size",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/*.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bgguys/rem.git"
+  },
+  "keywords": [
+    "pp",
+    "android",
+    "rem"
+  ],
+  "author": "ElegantXu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgguys/rem/issues"
+  },
+  "homepage": "https://github.com/bgguys/rem/blob/master/README.md",
+  "directories": {
+    "test": "test"
+  },
+}
