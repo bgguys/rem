@@ -2,7 +2,7 @@
 
 ## 安装 ##
 
-#### @ali/pp-rem 安装 ####
+#### bgrem 安装 ####
 ```$
 npm i bgrem
 ```	
