@@ -1,6 +1,6 @@
 {
   "name": "bgrem",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "使用 rem 布局的可引用该库自动设置 body 的 font-size",
   "main": "src/index.js",
   "scripts": {

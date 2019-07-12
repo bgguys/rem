@@ -1,6 +1,7 @@
 # bgrem #
 
-bgrem 主要用于设置 body 的 font-size，在页面初始化以及页面尺寸变更的时候，会自动设置 body 的 font-size
+bgrem 主要用于设置 body 的 font-size，在页面初始化以及页面尺寸变更的时候，会自动设置 body 的 font-size。
+PS: 由于 rem 更加适用于移动端，所以对屏幕宽度 > 500px 的页面我们将不予处理。
 
 ## 安装 ##
 

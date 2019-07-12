@@ -10,6 +10,8 @@ var BGRem = (function() {
 
   var _e = {};
 
+  var MAX_WIDTH = 500; // 500px 及以下的屏幕才使用 rem
+
   var PSD_WIDTH = 360; // 默认 PSD 稿宽度 360
   var FONT_SIZE = 100;  // 默认字体是 100 px
 
@@ -19,6 +21,10 @@ var BGRem = (function() {
 	 * @param  {[Number]} fontSize [字体大小, 默认 100]
 	 */
   _e.init = function(psdWidth, fontSize) {
+    if (document.documentElement.clientWidth > MAX_WIDTH) {
+      return;
+    }
+    
     if (psdWidth) {
       PSD_WIDTH = psdWidth;
     }
