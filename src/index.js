@@ -4,7 +4,7 @@
 
 'use strict';
 
-var BGDom = require('./dom');
+var BGUtils = require('bgutils/src/dom');
 
 var BGRem = (function() {
 
@@ -34,7 +34,7 @@ var BGRem = (function() {
     }
 
 		// 获取 webview 尺寸
-    BGDom.getWinSize(function() {
+    BGUtils.getWinSize(function() {
       setFontSize();
     });
 
